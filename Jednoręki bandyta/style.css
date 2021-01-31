@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.wrap h1 {
+    font-size: 50px;
+    margin: 40px auto;
+    text-transform: uppercase;
+}
+
+.game {
+    display: flex;
+}
+
+.game div {
+    border: 3px solid gray;
+    height: 30vh;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.play {
+    margin: 30px auto;
+}
+
+.play input {
+    height: 50px;
+    width: 40%;
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.play button {
+    display: block;
+    margin: 30px auto;
+    font-size: 30px;
+    padding: 7px 40px;
+    background-color: #333;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: .3s
+}
+
+.play button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.panel {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.score {
+    font-size: 16px;
+}
+
+.score span {
+    font-weight: bold;
+}
